@@ -3,14 +3,14 @@
 
   // BackEnd Environment variables
   window["env"]["fineractApiUrls"] = '';
-  window["env"]["fineractApiUrl"]  = '';
+  window["env"]["fineractApiUrl"]  = 'https://mifos.integraproductores.org';
 
   window["env"]["apiProvider"] = '';
   window["env"]["apiVersion"]  = '';
   window["env"]["apiActuator"]  = '';
 
-  window["env"]["fineractPlatformTenantId"]  = '';
-  window["env"]["fineractPlatformTenantIds"]  = '';
+  window["env"]["fineractPlatformTenantId"]  = 'desarrollo';
+  window["env"]["fineractPlatformTenantIds"]  = 'desarrollo, pruebas, huatusco';
 
   window['env']['tenantLogoUrl'] = '';
 
@@ -25,7 +25,7 @@
 
   // Display or not the Server Selector
   window['env']['allowServerSwitch'] = '';
-  
+
   // Display or not the BackEnd Info
   window['env']['displayBackEndInfo'] = '';
 
